@@ -80,7 +80,7 @@ function Home() {
                 src="https://ideogram.ai/api/images/direct/bEJXE3quTVKWWOrVcQfyMw.png"
                 alt="Om Jadhav"
                 className="img-fluid rounded-3"
-                style={{ maxHeight: "300px", marginLeft: "10%" }}
+                style={{ maxHeight: "300px" }}
               />
             </div>
           </div>
