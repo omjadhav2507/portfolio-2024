@@ -25,33 +25,29 @@ function LiveFilter() {
   }, [inputValue, inputType]);
 
   return (
-    <>
-      <div className="container mt-5">
-        <div className="row justify-content-center">
+    <div className="container mt-5">
+      <div className="row justify-content-center">
+        <div className="col-md-8">
           <h4 className="mb-4">Live Filter</h4>
-          <div className="input-group mb-3 " style={{ width: "30%" }}>
+          <div className="input-group mb-3">
             <input
               type="text"
               className="form-control"
               placeholder="Enter value"
-              aria-label="Recipient's username"
-              aria-describedby="basic-addon2"
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
             />
           </div>
-          <div className="input-group mb-3 " style={{ width: "30%" }}>
+          <div className="input-group mb-3">
             <input
               type="text"
               className="form-control"
               placeholder="Enter Type"
-              aria-label="Recipient's username"
-              aria-describedby="basic-addon2"
               value={inputType}
               onChange={(e) => setInputType(e.target.value)}
             />
           </div>
-          <table className="table" style={{ width: "60%" }}>
+          <table className="table">
             <thead>
               <tr>
                 <th scope="col">Value</th>
@@ -69,7 +65,7 @@ function LiveFilter() {
           </table>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

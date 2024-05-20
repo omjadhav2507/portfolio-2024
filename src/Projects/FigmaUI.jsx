@@ -12,6 +12,11 @@ import Hero104 from "../assets/Hero104.png";
 import Hero105 from "../assets/Hero105.png";
 import Hero106 from "../assets/Hero106.png";
 
+import Feature101 from "../assets/Features-101.png";
+import Feature102 from "../assets/Features-102.png";
+import Feature103 from "../assets/Features-103.png";
+import Feature104 from "../assets/Features-104.png";
+
 function FigmaUI() {
   return (
     <>
@@ -55,6 +60,35 @@ function FigmaUI() {
         </div>
         <div className="p-4 mt-5 " style={{ backgroundColor: "#F0F0F0" }}>
           <img src={Hero106} className="img-fluid mt-2  shadow-sm" alt="..." />
+        </div>
+        <div className="p-4 mt-5 " style={{ backgroundColor: "#F0F0F0" }}>
+          <h4>Feature Section</h4>
+          <img
+            src={Feature101}
+            className="img-fluid mt-2  shadow-sm"
+            alt="..."
+          />
+        </div>
+        <div className="p-4 mt-5 " style={{ backgroundColor: "#F0F0F0" }}>
+          <img
+            src={Feature102}
+            className="img-fluid mt-2  shadow-sm"
+            alt="..."
+          />
+        </div>
+        <div className="p-4 mt-5 " style={{ backgroundColor: "#F0F0F0" }}>
+          <img
+            src={Feature103}
+            className="img-fluid mt-2  shadow-sm"
+            alt="..."
+          />
+        </div>
+        <div className="p-4 mt-5 " style={{ backgroundColor: "#F0F0F0" }}>
+          <img
+            src={Feature104}
+            className="img-fluid mt-2  shadow-sm"
+            alt="..."
+          />
         </div>
       </div>
     </>
