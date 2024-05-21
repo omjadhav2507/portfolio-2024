@@ -4,6 +4,7 @@ import Todo from "./React-Projects/Todo";
 import PasswordStrength from "./React-Projects/PasswordStrength";
 import LinkPreview from "./React-Projects/LinkPreview";
 import LiveFilter from "./React-Projects/LiveFilter";
+import ReactDnD from "./React-Projects/ReactDnD";
 
 function ReactUI() {
   return (
@@ -24,7 +25,7 @@ function ReactUI() {
           className="d-flex justify-content-center p-5"
           style={{ backgroundColor: "#F0F0F0", textAlign: "center" }}
         >
-          <Todo />
+          <ReactDnD />
         </div>
         <div className="p-4 mt-4 " style={{ backgroundColor: "#F0F0F0" }}>
           <EmailValidation />

@@ -115,3 +115,7 @@ button:focus-visible {
   color: white !important;
 }
 
+
+.card {
+  list-style: none; /* Remove default list-style */
+}
